@@ -1,6 +1,6 @@
 <template>
     <form @submit.prevent="submitReview">
-        <textarea v-model="reviewText" placeholder="Оставьте отзыв"></textarea>
+        <textarea v-model="reviewText" placeholder="Оставьте отзыв"></textarea><br>
         <button type="submit">Отправить отзыв</button>
     </form>
 </template>

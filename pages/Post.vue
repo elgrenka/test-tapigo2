@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import PostDetail from "@/components/PostDetail";
+import PostDetail from "~/components/PostDetail.vue";
 
 export default {
     components: {
